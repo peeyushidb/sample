@@ -1,5 +1,8 @@
----
+
+ ---
 deployment:
-  tasks:
-    - export DEPLOYPATH=/home/prime72sh73js9qw/public_html/sample/
-    - /bin/cp * $DEPLOYPATH
+      tasks:
+        - export DEPLOYPATH=/home/prime72sh73js9qw/public_html/sample/
+    
+        - /bin cp -r * $DEPLOYPATH
+     
